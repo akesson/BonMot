@@ -5,12 +5,8 @@
 //  Created by Brian King on 10/2/16.
 //  Copyright © 2016 Raizlabs. All rights reserved.
 //
-
-#if os(OSX)
-    import AppKit
-#else
-    import UIKit
-#endif
+#if canImport(UIKit)
+import UIKit
 
 extension Tracking: AdaptiveStyleTransformation {
 
@@ -56,3 +52,4 @@ extension Tracking: EmbeddedTransformation {
     }
 
 }
+#endif

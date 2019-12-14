@@ -317,6 +317,7 @@
 		ABCD3E251D980E4900273936 /* BonMot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BonMot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABCD3E3E1D980E5500273936 /* BonMot-OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BonMot-OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABCD3E401D99558000273936 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
+		C341041923A4D4FD007A2EC3 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		CD3EEE661DC92CF0002C41BB /* Ligatures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ligatures.swift; sourceTree = "<group>"; };
 		CD3EEE6C1DCA68E1002C41BB /* FontInspector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontInspector.swift; sourceTree = "<group>"; };
 		CD3EEE721DCA6BCB002C41BB /* FontInspectorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontInspectorTests.swift; sourceTree = "<group>"; };
@@ -492,6 +493,7 @@
 		ABCBFD2E1D96E41D00FAD37A = {
 			isa = PBXGroup;
 			children = (
+				C341041923A4D4FD007A2EC3 /* Package.swift */,
 				ABCD3D511D96F02F00273936 /* Sources */,
 				ABCD3DA01D96F06800273936 /* Tests */,
 				AB9C18D31D9975EE00A54787 /* Resources */,

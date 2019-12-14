@@ -5,7 +5,7 @@
 //  Created by Brian King on 9/12/16.
 //
 //
-
+#if canImport(UIKit)
 import UIKit
 
 // UIKit helpers for iOS and tvOS
@@ -73,3 +73,4 @@ extension UIFont {
     }
 
 }
+#endif

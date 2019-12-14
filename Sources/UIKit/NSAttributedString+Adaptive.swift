@@ -5,7 +5,7 @@
 //  Created by Brian King on 9/20/16.
 //
 //
-
+#if canImport(UIKit)
 import UIKit
 
 extension NSAttributedString {
@@ -77,3 +77,4 @@ extension NSAttributedString {
     }
 
 }
+#endif

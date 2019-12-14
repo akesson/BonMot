@@ -26,3 +26,5 @@ DerivedData
 # Bundler
 .bundle
 vendor
+
+.build

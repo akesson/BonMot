@@ -5,7 +5,7 @@
 //  Created by Brian King on 7/19/16.
 //  Copyright © 2016 Raizlabs. All rights reserved.
 //
-
+#if canImport(UIKit)
 import UIKit
 
 /// A protocol to update the text style contained by the object. This can be
@@ -286,3 +286,4 @@ extension UINavigationItem {
     }
 
 }
+#endif

@@ -5,7 +5,7 @@
 //  Created by Brian King on 8/11/16.
 //  Copyright © 2016 Raizlabs. All rights reserved.
 //
-
+#if canImport(UIKit)
 import UIKit
 
 extension UILabel {
@@ -261,3 +261,4 @@ extension Dictionary where Key == String {
     }
 
 }
+#endif

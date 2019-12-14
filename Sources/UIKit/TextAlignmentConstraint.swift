@@ -5,12 +5,8 @@
 //  Created by Cameron Pulsford on 10/4/16.
 //  Copyright © 2016 Raizlabs. All rights reserved.
 //
-
-#if os(OSX)
-    import AppKit
-#else
-    import UIKit
-#endif
+#if canImport(UIKit)
+import UIKit
 
 private var TextAlignmentConstraintKVOContext = "BonMotTextAlignmentConstraintKVOContext" as NSString
 
@@ -238,3 +234,4 @@ private extension String {
     }
 
 }
+#endif
